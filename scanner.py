@@ -9,7 +9,7 @@ import pyfiglet as pfg
 banner = pfg.figlet_format("LAN PortScanner",font="slant")
 print(banner)
 
-parser = argparse.ArgumentParser(description="LAN Port scanner for IPV4 addresses")
+parser = argparse.ArgumentParser(description=" Port scanner for IPV4 addresses")
 parser.add_argument('arguments',metavar='IP OR Domain',help="enter the local IP or domain you want to get scanned")
 # type is optional if you want to specify the type of daa you want
 args = parser.parse_args()
