@@ -2,4 +2,4 @@
 A simple port scanner built with python
 
 
-this simple port scanner can be used on your LAN or local network to check for open ports 
+this simple port scanner can be used on your IP OR Domian to check for open ports 
